@@ -1,0 +1,121 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+
+.parent-flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.child-flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 300px;
+    width: 755px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 6px 6px 2px hsl(0, 0%, 91%);
+}
+
+.drawer{
+    width: 305px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.michelle-picture{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.michelle-picture-container{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    position: absolute;
+    top: 12px;
+    left: 0px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 53px 80px 50px 130px 50px;
+    grid-template-rows: 100px 75px 30px 30px;
+    grid-gap: 1px 1px;
+    height: 300px;
+    width: 450px;
+    padding: 40px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.midtext{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.michelle{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 3;
+}
+
+.june{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    line-height: 0px;
+}
+
+.share{
+    grid-column-start: 5;
+    grid-row-start: 3;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+h3{
+    font-family: 'Manrope', sans-serif;
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+}
+
+#text{
+    color: hsl(214, 17%, 51%);
+}
+
+#name{
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}
+
+#date{
+    color: hsl(214, 17%, 51%);
+}
